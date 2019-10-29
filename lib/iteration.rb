@@ -8,13 +8,24 @@ def join_ingredients(src)
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
    #binding.pry
-  idx = 0 
+  #idx = 0 
+  #pizza = []
+  #while idx < src.length do
+  #pizza = ["I love #{src[0][0]} and #{src[0][1]} on my pizza"]
+   #idx += 1
+#end
+#return pizza
+idx = 0 
   pizza = []
-  while idx < src.length do
+  while idx < src.length do 
+    ele_idx = 0 
+    while ele_idx < src[idx].length do
   pizza = ["I love #{src[0][0]} and #{src[0][1]} on my pizza"]
-   idx += 1
+   ele_idx += 1 
 end
+idx += 1
 return pizza
+end
 end
 
 def find_greater_pair(src)
