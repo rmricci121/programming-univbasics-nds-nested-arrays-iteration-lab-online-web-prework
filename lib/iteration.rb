@@ -14,7 +14,6 @@ def join_ingredients(src)
   pizza = ["I love #{src[0][0]} and #{src[0][1]} on my pizza"]
    idx += 1
 end
-
 return pizza
 end
 
