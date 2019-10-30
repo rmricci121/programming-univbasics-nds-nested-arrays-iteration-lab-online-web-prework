@@ -19,7 +19,7 @@ pizza=[]
 while row_index < src.count do
   element_index = 0
   while element_index < src[row_index].count do
-    pizza =
+    pizza +=
     ["I love #{src[0][0]} and #{src[0][1]} on my pizza"]
     element_index += 1
   end
