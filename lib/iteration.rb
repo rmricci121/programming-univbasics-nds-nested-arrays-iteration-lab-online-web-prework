@@ -8,10 +8,12 @@ def join_ingredients(src)
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
   idx = 0 
+  idxx = 0
   pizza = []
   while idx < src.length do
-  pizza.push("I love #{src[idx]} and #{src[idx]} on my pizza")
+  pizza.push("I love #{src[idx][idxx]} and #{src[idx][idxx]} on my pizza")
    idx += 1
+   idxx += 1 
 end
 return pizza
 end
