@@ -14,7 +14,15 @@ def join_ingredients(src)
    #idx += 1
 #end
 #return pizza
-
+row_index = 0
+while row_index < src.count do
+  element_index = 0
+  while element_index < spice_rack[row_index].count do
+    puts ["I love #{src[0][0]} and #{src[0][1]} on my pizza"]
+    element_index += 1
+  end
+  row_index += 1
+end 
 
 end
 
