@@ -11,7 +11,7 @@ def join_ingredients(src)
   element_index = 0
   pizza = []
   while idx < src.length do
-  pizza.push("I love #{src[idx][element_index]} and #{src[idx][element_index]} on my pizza")
+  pizza.push("I love #{src[idx]} and #{src[idx]} on my pizza")
    idx += 1
    element_index += 1
 end
