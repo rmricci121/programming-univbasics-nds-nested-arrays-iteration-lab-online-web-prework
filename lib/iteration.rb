@@ -10,7 +10,7 @@ def join_ingredients(src)
   idx = 0 
   pizza = []
   while idx < src.length do
-  pizza = ["I love #{src[0][0]} and #{src[0][1]} on my pizza"]
+  pizza = ["I love #{src[0][0]} and #{src[0][1]} on my pizza"].push
    idx += 1
 end
 return pizza
