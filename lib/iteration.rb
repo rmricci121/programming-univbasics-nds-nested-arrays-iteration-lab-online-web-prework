@@ -14,7 +14,6 @@ def join_ingredients(src)
    idx += 1
 end
 return pizza
-
 end
 
 def find_greater_pair(src)
