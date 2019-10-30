@@ -13,7 +13,7 @@ pizza=[]
 while row_index < src.count do
   element_index = 0
 while element_index < src[row_index].count do
-    pizza.push("I love #{src[idx][element_index]} and #{src[idx][element_index]} on my pizza")
+    pizza.push("I love #{src[row_index][element_index]} and #{src[row_index][element_index]} on my pizza")
     element_index += 1
   end
   return pizza
