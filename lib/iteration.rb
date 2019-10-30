@@ -10,7 +10,7 @@ def join_ingredients(src)
   idx = 1 
   idxx = 0  
   pizza = []
-  while idx < src.length do
+  while idx < src.count do
   pizza.push("I love #{src[idx][idxx]} and #{src[idx][idxx]} on my pizza")
    idx += 1
    idxx += 1 
